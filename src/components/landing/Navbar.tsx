@@ -90,6 +90,10 @@ const Navbar = () => {
                 {l.label}
               </a>
             ))}
+            <div className="flex items-center justify-between py-2">
+              <span className="text-foreground/90 font-medium">Tema</span>
+              <ModeToggle />
+            </div>
             <a
               href={WHATSAPP_URL}
               target="_blank"
